@@ -1,0 +1,32 @@
+package Adapter;
+
+/**
+ * @Title: MediaAdapter
+ * @Description: MediaPlayer 接口的适配器类
+ * @author: youqing
+ * @version: 1.0
+ * @date: 2018/12/26 14:20
+ */
+public class MediaAdapter implements MediaPlayer {
+
+    AdvancedMediaPlayer advancedMediaPlayer;
+
+
+    public MediaAdapter(String audioType){
+        if(audioType.equalsIgnoreCase("vlc")){
+            advancedMediaPlayer = new VlcPlayer();
+        }else if(audioType.equalsIgnoreCase("mp4")){
+            advancedMediaPlayer = new Mp4Player();
+        }
+    }
+
+
+    @Override
+    public void play(String audioType, String fileName) {
+        if(audioType.equalsIgnoreCase("vlc")){
+            advancedMediaPlayer.playVlc(fileName);
+        }else if(audioType.equalsIgnoreCase("mp4")){
+            advancedMediaPlayer.playMp4(fileName);
+        }
+    }
+}
