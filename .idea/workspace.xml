@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="292126c9-89fc-41a4-8bcd-b6937dd05213" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Designer/.gitignore" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Designer/.idea/compiler.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Designer/.idea/description.html" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Designer/.idea/encodings.xml" afterPath="" />
@@ -12,7 +11,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Designer/.idea/uiDesigner.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Designer/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../Designer/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Designer/README.md" afterPath="$PROJECT_DIR$/../Designer/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/../Designer/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -783,7 +781,7 @@
       <workItem from="1545788023456" duration="8922000" />
       <workItem from="1545806445862" duration="847000" />
       <workItem from="1545873095183" duration="4676000" />
-      <workItem from="1545877813532" duration="512000" />
+      <workItem from="1545877813532" duration="747000" />
     </task>
     <task id="LOCAL-00001" summary="适配器模式">
       <created>1545806332888</created>
@@ -806,11 +804,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545877316680</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加说明">
+      <created>1545878354899</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545878354899</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14957000" />
+    <option name="totallyTimeSpent" value="15192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -881,7 +886,8 @@
     <MESSAGE value="适配器模式" />
     <MESSAGE value="装饰器模式" />
     <MESSAGE value="桥接模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="桥接模式" />
+    <MESSAGE value="添加说明" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加说明" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
