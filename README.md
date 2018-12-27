@@ -5,4 +5,5 @@
 4. 适配器模式  -- Adapter
 5. 装饰器模式  -- Decorator
 6. 桥接模式   -- Bridge
+7. 代理模式 -- Proxy
 
