@@ -6,4 +6,5 @@
 5. 装饰器模式  -- Decorator
 6. 桥接模式   -- Bridge
 7. 代理模式 -- Proxy
+8. 建造者模式 -- Builder
 
