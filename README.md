@@ -7,4 +7,5 @@
 6. 桥接模式   -- Bridge
 7. 代理模式 -- Proxy
 8. 建造者模式 -- Builder
+9. 策略模式 -- Strategy 
 
